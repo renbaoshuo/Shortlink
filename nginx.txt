@@ -1,0 +1,11 @@
+# REWRITE START
+location / {
+  try_files $uri $uri/ =404;
+}
+location ~ /inc/ {
+  return 404;
+}
+location ~* ^/(?![asset|api]) {
+  rewrite (\d+|\w+)$ /index.php?id=$1;
+}
+# REWRITE END
