@@ -11,5 +11,7 @@
   $config['title'] = '短链生成';
   // 网站简介
   $config['description'] = '在线网址缩短服务';
+  
+  $config['api'] = true;
 
 ?>
