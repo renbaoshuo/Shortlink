@@ -1,10 +1,8 @@
 # ShortLink
 
-The code is based on secondary development of [CRZ.im](https://github.com/Caringor/CRZ.im), thanks for the hard work of the original author @Caringor!
+[简体中文](./README.md) | **English**
 
-## Language
-- zh_CN [简体中文](README.md)
-- en [English](README.en.md)
+The code is based on secondary development of [CRZ.im](https://github.com/Caringor/CRZ.im), thanks for the hard work of the original author @Caringor!
 
 ## Overview
 

@@ -1,10 +1,8 @@
 # ShortLink
 
-代码基于 [CRZ.im](https://github.com/Caringor/CRZ.im) 二次开发，感谢原作者的辛勤劳动。
+**简体中文** | [English](./README.en.md)
 
-## 文档语言
-- zh_CN [简体中文](README.md)
-- en [English](README.en.md)
+代码基于 [CRZ.im](https://github.com/Caringor/CRZ.im) 二次开发，感谢原作者的辛勤劳动。
 
 ## 概述
 
