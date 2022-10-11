@@ -50,7 +50,7 @@
 	    </div>
 		<!--嵌入 JS 代码-->
 		<script>
-			document.body.oncopy = function() {
+			shorturl.oncopy = function() {
 				Swal.fire({
 					allowOutsideClick:false,
 					type:'success',

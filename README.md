@@ -1,5 +1,7 @@
 # ShortLink
 
+**简体中文** | [English](./README.en.md)
+
 代码基于 [CRZ.im](https://github.com/Caringor/CRZ.im) 二次开发，感谢原作者的辛勤劳动。
 
 ## 概述
@@ -10,7 +12,7 @@
 
 ### 环境准备
 
-+ `PHP 7.0+`
++ 兼容 PHP 7.x
 + `Nginx 1.15+`
 + ~~`MySQL 5.5+`~~ （目前还不需要）
 
@@ -28,7 +30,7 @@
 
 #### Nginx 用户
 
-需要把 `nginx-rewrite.conf` 里面的内容添加到 `Nginx` 的配置文件里。
+需要把 `nginx-rewrite.conf` 里面的内容添加到 `Nginx` 对欲使用网站的配置文件里。
 
 ## 功能
 
