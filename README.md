@@ -2,6 +2,10 @@
 
 代码基于 [CRZ.im](https://github.com/Caringor/CRZ.im) 二次开发，感谢原作者的辛勤劳动。
 
+## 文档语言
+- zh_CN [简体中文](README.md)
+- en [English](README.en.md)
+
 ## 概述
 
 这是一个网址缩短服务的网站的源代码。
@@ -10,7 +14,7 @@
 
 ### 环境准备
 
-+ `PHP 7.0+`
++ `PHP 7.0x`版本兼容
 + `Nginx 1.15+`
 + ~~`MySQL 5.5+`~~ （目前还不需要）
 
@@ -28,7 +32,7 @@
 
 #### Nginx 用户
 
-需要把 `nginx-rewrite.conf` 里面的内容添加到 `Nginx` 的配置文件里。
+需要把 `nginx-rewrite.conf` 里面的内容添加到 `Nginx` 对欲使用网站的配置文件里。
 
 ## 功能
 
