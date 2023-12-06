@@ -6,9 +6,15 @@
         }
         // 初始化数据库结构
         function init_tab() {
-            // 网址表
-            $this->db->exec("CREATE TABLE urls(id char(8) PRIMARY KEY, url longtext, ip varchar(16), ua varchar(255))");
+            // 检查urls表是否已存在
+            $tableExists = $this->db->query("SELECT 1 FROM urls LIMIT 1");
+
+            // 如果urls表不存在，则创建表
+            if (!$tableExists) {
+                $this->db->exec("CREATE TABLE urls(id char(8) PRIMARY KEY, url longtext, ip varchar(16), ua varchar(255))");
+            }
         }
+
         // 查询表内容
         function query($name, $rule = '') {
             $query = $this->db->prepare("SELECT * FROM $name $rule");
