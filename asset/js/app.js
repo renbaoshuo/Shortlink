@@ -58,3 +58,6 @@ var APP = (function(){
 })();
 
 document.addEventListener('DOMContentLoaded', function() {APP.init();})
+
+console.log('\n %c Program By %c Baoshuo ( @renbaoshuo ) %c https://baoshuo.ren %c\n', 'color: #fadfa3; background: #000000; padding:5px 0;', 'background: #fadfa3; padding:5px 0;', 'background: #ffbf33; padding:5px 0;', '');
+console.log('\n GitHub Homepage: https://github.com/renbaoshuo/Shortlink \n \n%c ★ Please give us a star on GitHub! ★ %c \n', 'color: red;', '')
