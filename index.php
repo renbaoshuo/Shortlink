@@ -45,7 +45,7 @@
 				<input id="shorturlcopy" type="button" value="复制" onclick="copyText()" />
 			</div>
 			<div class="footer">
-				Copyright &copy; <a href="https://www.baoshuo.ren/">宝硕小站</a> | <a href="https://github.com/Caringor/CRZ.im/" title="源码" target="_blank">Github</a>
+				Program by <a href="https://baoshuo.ren/?utm_campaign=shortlink-opensouce">Baoshuo</a>, source code is available on <a href="https://github.com/renbaoshuo/Shortlink" title="源码" target="_blank">GitHub</a>.
 			</div>
 	    </div>
 		<!--嵌入 JS 代码-->
